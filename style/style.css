@@ -1,0 +1,78 @@
+body {
+    background: url("../content/Witching\ Hour.jpg");
+    color: rgb(255, 255, 255);
+    font-family: 'Gilda Display', sans-serif;
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+#but {
+    height: 30px;
+    width: 50px;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+}
+#input {
+    width: 234px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid;
+    border-color: bisque;
+    text-align: center;
+}
+#firstName {
+    height: 50px;
+    width: 15rem;
+    border-radius: 5px;
+}
+#ton {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    border: solid;
+    border-color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+#lastName {
+    height: 50px;
+    width: 15rem;
+    border-radius: 5px;
+}
+#age {
+    height: 50px;
+    width: 15rem;
+    border-radius: 5px;
+}
+.wrapper {
+    padding: 3rem;
+    width: 15rem;
+    height: 200px;
+    background-image: url("../content/Selenium.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+    box-shadow: rgb(0, 0, 0) 30px 30px 30px 0px;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}
+.card{
+    background-image: url("../content/Witching\ Hour.jpg");
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+
+@import url('https://fonts.cdnfonts.com/css/gilda-display');
