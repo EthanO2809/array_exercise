@@ -18,6 +18,30 @@ body {
     color: white;
     border-radius: 4px;
 }
+#but:hover,:focus {
+    color: #ffffff;
+    background: #008cff00;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff,
+                0 0 20px #008cff,
+                0 0 50px #008cff,
+                0 0 100px #008cff;
+  }
+#ton:hover,:focus {
+    color: #ffffff;
+    background: #008cff00;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff,
+                0 0 20px #008cff,
+                0 0 50px #008cff,
+                0 0 100px #008cff;
+  }
 #input {
     width: 234px;
     height: 50px;
@@ -25,6 +49,10 @@ body {
     border: solid;
     border-color: bisque;
     text-align: center;
+    background: linear-gradient(to right, grey, rgb(81, 81, 81));
+    font-weight: 800;
+    font-size: 1rem;
+    
 }
 #firstName {
     height: 50px;
@@ -40,6 +68,7 @@ body {
     background-color: transparent;
     border-radius: 5px;
     color: white;
+    box-shadow: rgb(23, 23, 23) 4px 4px 4px 4px;
 }
 #lastName {
     height: 50px;
@@ -67,12 +96,13 @@ body {
     margin-bottom: 1rem;
 }
 .card{
-    background-image: url("../content/Witching\ Hour.jpg");
+    background: linear-gradient(to right, grey, rgb(81, 81, 81));
     height: 80px;
     margin-top: 5px;
     border-radius: 5px;
     display: grid;
     place-items: center;
+    box-shadow: rgb(23, 23, 23) 4px 4px 4px 4px;
 }
 
 @import url('https://fonts.cdnfonts.com/css/gilda-display');
